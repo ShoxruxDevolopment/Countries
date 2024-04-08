@@ -13,13 +13,15 @@ body{
   background-color:var(--bg-color-second);
   color:var(--text-color);
 }
-html{
 
-}
 .dark-mode{
   --bg-color:#2B3844;
   --bg-color-second:#202C36;
   --text-color:#FFFFFF;
+}
+a{
+  text-decoration: none;
+  color:var(--text-color);
 }
 .countries-wrapper{
   width: 100%;
@@ -110,4 +112,58 @@ select{
   border-radius: 4px;
   color:var(--text-color);
   background-color:var(--bg-color);
+}
+.flags-countries{
+
+}
+
+.country-list-top{
+  display: flex;
+  margin-bottom: 75px;
+}
+.country-list-item-top{
+
+  width: 264px;
+  height: 336px;
+  list-style: none;
+  background-color:var(--bg-color);
+  box-shadow: #00000008;
+  border-radius:4px;
+}
+
+.country-list-item-top:not(last-child){
+  margin-right: 74px;
+
+}
+.flag-germany-img{
+  width: 264px;
+  height: 160px;
+  border-radius:4px;
+
+}
+.heading-name-country{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 800;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color:var(--text-color);
+}
+.text-country{
+
+  margin-left: 24px;
+  margin-bottom: 8px;
+  color: var(--text-color);
+
+}
+strong{
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+}
+span{
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
 }
