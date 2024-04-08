@@ -10,7 +10,7 @@
 }
 body{
   font-family: 'Nunito Sans', Arial, sans-serif;
-  background-color:var(--bg-color-second);
+  /* background-color:var(--bg-color-second); */
   color:var(--text-color);
 }
 
@@ -26,8 +26,9 @@ a{
 .countries-wrapper{
   width: 100%;
   max-width: 1440px;
-  height: 1024px;
+  /* height: auto; */
   margin: auto;
+  padding-bottom: 50px;
   border: 1px solid red;
 }
 .header{
