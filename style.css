@@ -2,6 +2,7 @@
   --bg-color:#fff;
   --bg-color-second:#F2F2F2;
   --text-color:#111517;
+  --other-color:#848484;
 }
 *{
   margin: 0;
@@ -10,15 +11,21 @@
 }
 body{
   font-family: 'Nunito Sans', Arial, sans-serif;
-  /* background-color:var(--bg-color-second); */
-  color:var(--text-color);
+
 }
 
 .dark-mode{
   --bg-color:#2B3844;
   --bg-color-second:#202C36;
   --text-color:#FFFFFF;
+  --other-color:#FFFFFF;
 }
+/* .dark-mode-remove{
+  --bg-color:#2B3844;
+  --bg-color-second:#202C36;
+  --text-color:#FFFFFF;
+
+} */
 a{
   text-decoration: none;
   color:var(--text-color);
@@ -55,6 +62,7 @@ a{
   font-weight: 600;
   border:none;
   background-color:var(--bg-color);
+  color: var(--text-color);
   cursor: pointer;
 
 }
@@ -63,6 +71,7 @@ a{
   height: 13px;
   margin-top: 3px;
   margin-right: 8px;
+  background-color:var(--bg-color);
 }
 .main-content{
   width: 100%;
@@ -91,14 +100,20 @@ form{
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  color:#848484;
   border:none;
   border-radius: 4px;
+  color:var(--text-color);
   background-color:var(--bg-color);
   background-image: url(./img/icon-search-black.svg);
   background-repeat: no-repeat;
   background-position: 19px 18px;
 
+}
+/* svg{
+  fill: var(--other-color);
+} */
+::placeholder{
+  color:var(--other-color);
 }
 select{
   width: 200px;
