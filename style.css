@@ -9,6 +9,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  background-color:#e7a1a1;
+}
 body{
   font-family: 'Nunito Sans', Arial, sans-serif;
 
@@ -36,7 +39,7 @@ a{
   /* height: auto; */
   margin: auto;
   padding-bottom: 50px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .header{
   display: flex;
@@ -46,7 +49,7 @@ a{
   height: 80px;
   padding: 24px 80px 23px;
   background-color: var(--bg-color);
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .header-heading-question{
   font-size: 24px;
@@ -85,7 +88,7 @@ a{
   width: 1280px;
   height: 100%;
   margin: auto;
-  border:1px solid yellow;
+  /* border:1px solid yellow; */
 
 }
 form{
