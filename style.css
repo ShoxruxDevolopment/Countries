@@ -49,6 +49,10 @@ a{
   height: 80px;
   padding: 24px 80px 23px;
   background-color: var(--bg-color);
+
+
+
+
   /* border: 1px solid blue; */
 }
 .header-heading-question{
@@ -58,23 +62,29 @@ a{
   color:var(--text-color);
 }
 .btn{
-  width: 108px;
-  height: 22px;
+  padding: 0;
+  border:none;
+  background-color:transparent;
+  /* background-color:var(--bg-color); */
+
+  cursor: pointer;
+  /* border:1px solid blue; */
+
+}
+
+
+.togler-text{
   font-size: 16px;
   line-height: 21px;
   font-weight: 600;
-  border:none;
-  background-color:var(--bg-color);
   color: var(--text-color);
-  cursor: pointer;
-
+  margin-left: 8px;
 }
+
 .moon-img{
-  width:15px;
-  height: 13px;
-  margin-top: 3px;
-  margin-right: 8px;
-  background-color:var(--bg-color);
+  width:13px;
+  height: 15px;
+
 }
 .main-content{
   width: 100%;
@@ -112,7 +122,7 @@ form{
   background-position: 19px 18px;
 
 }
-/* svg{
+/* svg path{
   fill: var(--other-color);
 } */
 ::placeholder{
@@ -186,3 +196,84 @@ span{
   line-height: 16px;
   font-weight: 300;
 }
+
+
+/* Details */
+.main-content-detail{
+  background-color:var(--bg-color);
+  padding-top: 80px;
+}
+.back{
+  padding-left: 32px;
+}
+.text-back{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color:var(--text-color);
+  margin-left: 10px;
+}
+.about-country-texts{
+  width: 100%;
+  height: 323px;
+  margin-left: 120px;
+  margin-top: 39px;
+  border: 1px solid blue;
+}
+.about-country{
+  display: flex;
+  margin-top: 80px;
+}
+.flag-belgia{
+  border-radius: 10px;
+}
+.content-info{
+  display: flex;
+}
+.heading-belgia{
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: 800;
+  color:var(--text-color);
+  margin-bottom:23px;
+}
+.right-info{
+  margin-left: 141px;
+
+}
+
+
+.bold-text{
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+
+}
+.text-belgia{
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.border-countries{
+  display: flex;
+  align-items:center;
+  margin-top: 70px;
+
+  }
+  .heading-links{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color:var(--text-color);
+  margin-right: 15px;
+  }
+  .links-border >a{
+   width: 96px;
+   height: 28px;
+   border: 1px solid #979797;
+   border-radius:1px;
+   margin-left: 10px;
+   box-shadow:rgba(0, 0, 0, 0.1)
+
+  }
